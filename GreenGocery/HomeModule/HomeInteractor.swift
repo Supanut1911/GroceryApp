@@ -10,17 +10,23 @@ import Foundation
 import UIKit
 
 protocol HomeUseCase {
-    func getTitle() -> HomeModel
+    func getGroceries(completion: GroceriesClosure) -> Void
 }
 
 class HomeInteractor {
     
+    var service: GroceriesAPI
+    
+    init(service: GroceriesAPI) {
+        self.service = service
+    }
+    
 }
 
 extension HomeInteractor: HomeUseCase {
-    func getTitle() -> HomeModel {
-        return HomeModel(title: "Home VIPER")
+    func getGroceries(completion: (GroceryResult) -> (Void)) {
+        self.service.fetchGrocersies { (result) in
+            completion(result)
+        }
     }
-    
-    
 }

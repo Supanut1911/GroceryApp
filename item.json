@@ -1,0 +1,32 @@
+{
+    "groceries": [
+        {
+            "sku-id": "100001A",
+            "title": "Apple",
+            "product_image": "apple",
+            "details": "Nature fresh apples",
+            "price": 3.99
+        },
+        {
+            "sku-id": "100002A",
+            "title": "Watermelon",
+            "product_image": "watermelon",
+            "details": "Hulk fresh watermelon",
+            "price": 8.99
+        },
+        {
+            "sku-id": "100003A",
+            "title": "Red Grapes",
+            "product_image": "Grapes",
+            "details": "sweetie red grepes",
+            "price": 1.99
+        },
+        {
+            "sku-id": "100004A",
+            "title": "Green Grapes",
+            "product_image": "green-grape",
+            "details": "Nature fresh sweetie grapes",
+            "price": 2.99
+        },
+    ]
+}

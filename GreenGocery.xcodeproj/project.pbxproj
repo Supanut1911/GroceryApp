@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1737C36024761EC500A5B569 /* ViewLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C35F24761EC500A5B569 /* ViewLoadable.swift */; };
+		1737C369247633A500A5B569 /* AddBagControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C368247633A500A5B569 /* AddBagControlView.swift */; };
+		1737C36B247633D300A5B569 /* AddBagControl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1737C36A247633D300A5B569 /* AddBagControl.xib */; };
+		1737C39624767C6000A5B569 /* item.json in Resources */ = {isa = PBXBuildFile; fileRef = 1737C39524767C6000A5B569 /* item.json */; };
+		1737C39924767D3800A5B569 /* GroceryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C39724767D3800A5B569 /* GroceryItemCell.swift */; };
+		1737C39A24767D3800A5B569 /* GroceryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1737C39824767D3800A5B569 /* GroceryItemCell.xib */; };
+		1737C39E24767F7E00A5B569 /* StubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C39D24767F7E00A5B569 /* StubService.swift */; };
+		1737C3A12476809400A5B569 /* GroceryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1737C3A02476809400A5B569 /* GroceryResult.swift */; };
 		17FCCAD12473DA170010F0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD02473DA170010F0A0 /* AppDelegate.swift */; };
 		17FCCAD52473DA170010F0A0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD42473DA170010F0A0 /* HomeVC.swift */; };
 		17FCCAD82473DA170010F0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FCCAD62473DA170010F0A0 /* Main.storyboard */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1737C35F24761EC500A5B569 /* ViewLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoadable.swift; sourceTree = "<group>"; };
+		1737C368247633A500A5B569 /* AddBagControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBagControlView.swift; sourceTree = "<group>"; };
+		1737C36A247633D300A5B569 /* AddBagControl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddBagControl.xib; sourceTree = "<group>"; };
+		1737C39524767C6000A5B569 /* item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item.json; sourceTree = "<group>"; };
+		1737C39724767D3800A5B569 /* GroceryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemCell.swift; sourceTree = "<group>"; };
+		1737C39824767D3800A5B569 /* GroceryItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroceryItemCell.xib; sourceTree = "<group>"; };
+		1737C39D24767F7E00A5B569 /* StubService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubService.swift; sourceTree = "<group>"; };
+		1737C3A02476809400A5B569 /* GroceryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryResult.swift; sourceTree = "<group>"; };
 		17FCCACD2473DA170010F0A0 /* GreenGocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenGocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FCCAD02473DA170010F0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17FCCAD42473DA170010F0A0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -52,9 +68,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1737C35724761C0900A5B569 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				1737C368247633A500A5B569 /* AddBagControlView.swift */,
+				1737C36A247633D300A5B569 /* AddBagControl.xib */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1737C35E24761DFD00A5B569 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1737C35F24761EC500A5B569 /* ViewLoadable.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1737C39B24767D4100A5B569 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1737C39724767D3800A5B569 /* GroceryItemCell.swift */,
+				1737C39824767D3800A5B569 /* GroceryItemCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1737C39C24767F7000A5B569 /* HttpService */ = {
+			isa = PBXGroup;
+			children = (
+				1737C39D24767F7E00A5B569 /* StubService.swift */,
+			);
+			path = HttpService;
+			sourceTree = "<group>";
+		};
+		1737C39F2476808400A5B569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1737C3A02476809400A5B569 /* GroceryResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		17FCCAC42473DA170010F0A0 = {
 			isa = PBXGroup;
 			children = (
+				1737C39524767C6000A5B569 /* item.json */,
 				17FCCACF2473DA170010F0A0 /* GreenGocery */,
 				17FCCACE2473DA170010F0A0 /* Products */,
 				F4F838047CC1D527A3BFF8B6 /* Pods */,
@@ -73,6 +132,11 @@
 		17FCCACF2473DA170010F0A0 /* GreenGocery */ = {
 			isa = PBXGroup;
 			children = (
+				1737C39F2476808400A5B569 /* Model */,
+				1737C39C24767F7000A5B569 /* HttpService */,
+				1737C39B24767D4100A5B569 /* Cell */,
+				1737C35E24761DFD00A5B569 /* Shared */,
+				1737C35724761C0900A5B569 /* Control */,
 				17FCCAED24743C410010F0A0 /* Entity */,
 				17FCCAE424743A1F0010F0A0 /* HomeModule */,
 				17FCCAD02473DA170010F0A0 /* AppDelegate.swift */,
@@ -183,6 +247,9 @@
 			files = (
 				17FCCADD2473DA1C0010F0A0 /* LaunchScreen.storyboard in Resources */,
 				17FCCADA2473DA1C0010F0A0 /* Assets.xcassets in Resources */,
+				1737C39A24767D3800A5B569 /* GroceryItemCell.xib in Resources */,
+				1737C39624767C6000A5B569 /* item.json in Resources */,
+				1737C36B247633D300A5B569 /* AddBagControl.xib in Resources */,
 				17FCCAD82473DA170010F0A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,12 +288,17 @@
 			files = (
 				17FCCAEF24743CEC0010F0A0 /* HomeModuleBuilder.swift in Sources */,
 				17FCCAD52473DA170010F0A0 /* HomeVC.swift in Sources */,
+				1737C39924767D3800A5B569 /* GroceryItemCell.swift in Sources */,
 				17FCCAD12473DA170010F0A0 /* AppDelegate.swift in Sources */,
 				17FCCAEC24743BEE0010F0A0 /* HomeModel.swift in Sources */,
 				17FCCAEA24743B7B0010F0A0 /* HomeInteractor.swift in Sources */,
 				17FCCAE624743ACB0010F0A0 /* HomePresenter.swift in Sources */,
 				17FCCAE824743B390010F0A0 /* HomeRouter.swift in Sources */,
+				1737C369247633A500A5B569 /* AddBagControlView.swift in Sources */,
+				1737C36024761EC500A5B569 /* ViewLoadable.swift in Sources */,
+				1737C3A12476809400A5B569 /* GroceryResult.swift in Sources */,
 				17FCCAF1247449D90010F0A0 /* SceneDelegate.swift in Sources */,
+				1737C39E24767F7E00A5B569 /* StubService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

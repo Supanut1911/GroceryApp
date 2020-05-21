@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		17FCCAD12473DA170010F0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD02473DA170010F0A0 /* AppDelegate.swift */; };
-		17FCCAD32473DA170010F0A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD22473DA170010F0A0 /* SceneDelegate.swift */; };
-		17FCCAD52473DA170010F0A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD42473DA170010F0A0 /* ViewController.swift */; };
+		17FCCAD52473DA170010F0A0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAD42473DA170010F0A0 /* HomeVC.swift */; };
 		17FCCAD82473DA170010F0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FCCAD62473DA170010F0A0 /* Main.storyboard */; };
 		17FCCADA2473DA1C0010F0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FCCAD92473DA1C0010F0A0 /* Assets.xcassets */; };
 		17FCCADD2473DA1C0010F0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FCCADB2473DA1C0010F0A0 /* LaunchScreen.storyboard */; };
+		17FCCAE624743ACB0010F0A0 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAE524743ACB0010F0A0 /* HomePresenter.swift */; };
+		17FCCAE824743B390010F0A0 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAE724743B390010F0A0 /* HomeRouter.swift */; };
+		17FCCAEA24743B7B0010F0A0 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAE924743B7B0010F0A0 /* HomeInteractor.swift */; };
+		17FCCAEC24743BEE0010F0A0 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAEB24743BEE0010F0A0 /* HomeModel.swift */; };
+		17FCCAEF24743CEC0010F0A0 /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAEE24743CEC0010F0A0 /* HomeModuleBuilder.swift */; };
+		17FCCAF1247449D90010F0A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FCCAF0247449D90010F0A0 /* SceneDelegate.swift */; };
+		9D18F992BCC87536D70A0419 /* Pods_GreenGocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91D029667F8B09EF3418DC9 /* Pods_GreenGocery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17FCCACD2473DA170010F0A0 /* GreenGocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenGocery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FCCAD02473DA170010F0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17FCCAD22473DA170010F0A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17FCCAD42473DA170010F0A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17FCCAD42473DA170010F0A0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		17FCCAD72473DA170010F0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17FCCAD92473DA1C0010F0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FCCADC2473DA1C0010F0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FCCADE2473DA1C0010F0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FCCAE524743ACB0010F0A0 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		17FCCAE724743B390010F0A0 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		17FCCAE924743B7B0010F0A0 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		17FCCAEB24743BEE0010F0A0 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		17FCCAEE24743CEC0010F0A0 /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
+		17FCCAF0247449D90010F0A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B7F9458459C2A1F707471A1 /* Pods-GreenGocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenGocery.release.xcconfig"; path = "Target Support Files/Pods-GreenGocery/Pods-GreenGocery.release.xcconfig"; sourceTree = "<group>"; };
+		8501FA1C4041009E0D23C8EF /* Pods-GreenGocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenGocery.debug.xcconfig"; path = "Target Support Files/Pods-GreenGocery/Pods-GreenGocery.debug.xcconfig"; sourceTree = "<group>"; };
+		D91D029667F8B09EF3418DC9 /* Pods_GreenGocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenGocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D18F992BCC87536D70A0419 /* Pods_GreenGocery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				17FCCACF2473DA170010F0A0 /* GreenGocery */,
 				17FCCACE2473DA170010F0A0 /* Products */,
+				F4F838047CC1D527A3BFF8B6 /* Pods */,
+				F5F7F0472BF5F3CDB08C8230 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +73,53 @@
 		17FCCACF2473DA170010F0A0 /* GreenGocery */ = {
 			isa = PBXGroup;
 			children = (
+				17FCCAED24743C410010F0A0 /* Entity */,
+				17FCCAE424743A1F0010F0A0 /* HomeModule */,
 				17FCCAD02473DA170010F0A0 /* AppDelegate.swift */,
-				17FCCAD22473DA170010F0A0 /* SceneDelegate.swift */,
-				17FCCAD42473DA170010F0A0 /* ViewController.swift */,
+				17FCCAF0247449D90010F0A0 /* SceneDelegate.swift */,
 				17FCCAD62473DA170010F0A0 /* Main.storyboard */,
 				17FCCAD92473DA1C0010F0A0 /* Assets.xcassets */,
 				17FCCADB2473DA1C0010F0A0 /* LaunchScreen.storyboard */,
 				17FCCADE2473DA1C0010F0A0 /* Info.plist */,
 			);
 			path = GreenGocery;
+			sourceTree = "<group>";
+		};
+		17FCCAE424743A1F0010F0A0 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				17FCCAD42473DA170010F0A0 /* HomeVC.swift */,
+				17FCCAE524743ACB0010F0A0 /* HomePresenter.swift */,
+				17FCCAE724743B390010F0A0 /* HomeRouter.swift */,
+				17FCCAE924743B7B0010F0A0 /* HomeInteractor.swift */,
+				17FCCAEE24743CEC0010F0A0 /* HomeModuleBuilder.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		17FCCAED24743C410010F0A0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				17FCCAEB24743BEE0010F0A0 /* HomeModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		F4F838047CC1D527A3BFF8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8501FA1C4041009E0D23C8EF /* Pods-GreenGocery.debug.xcconfig */,
+				5B7F9458459C2A1F707471A1 /* Pods-GreenGocery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5F7F0472BF5F3CDB08C8230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D91D029667F8B09EF3418DC9 /* Pods_GreenGocery.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17FCCAE12473DA1C0010F0A0 /* Build configuration list for PBXNativeTarget "GreenGocery" */;
 			buildPhases = (
+				1BE1D8C4E6DC39029D7695A8 /* [CP] Check Pods Manifest.lock */,
 				17FCCAC92473DA170010F0A0 /* Sources */,
 				17FCCACA2473DA170010F0A0 /* Frameworks */,
 				17FCCACB2473DA170010F0A0 /* Resources */,
@@ -133,14 +189,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BE1D8C4E6DC39029D7695A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenGocery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17FCCAC92473DA170010F0A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17FCCAD52473DA170010F0A0 /* ViewController.swift in Sources */,
+				17FCCAEF24743CEC0010F0A0 /* HomeModuleBuilder.swift in Sources */,
+				17FCCAD52473DA170010F0A0 /* HomeVC.swift in Sources */,
 				17FCCAD12473DA170010F0A0 /* AppDelegate.swift in Sources */,
-				17FCCAD32473DA170010F0A0 /* SceneDelegate.swift in Sources */,
+				17FCCAEC24743BEE0010F0A0 /* HomeModel.swift in Sources */,
+				17FCCAEA24743B7B0010F0A0 /* HomeInteractor.swift in Sources */,
+				17FCCAE624743ACB0010F0A0 /* HomePresenter.swift in Sources */,
+				17FCCAE824743B390010F0A0 /* HomeRouter.swift in Sources */,
+				17FCCAF1247449D90010F0A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +368,7 @@
 		};
 		17FCCAE22473DA1C0010F0A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8501FA1C4041009E0D23C8EF /* Pods-GreenGocery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +387,7 @@
 		};
 		17FCCAE32473DA1C0010F0A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7F9458459C2A1F707471A1 /* Pods-GreenGocery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

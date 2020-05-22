@@ -2,12 +2,10 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "greenGrape.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "greenGrape-1.png",
       "scale" : "2x"
     },
     {

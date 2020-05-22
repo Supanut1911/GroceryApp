@@ -2,17 +2,15 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "redGrape.png",
+      "filename" : "redGrape-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "redGrape-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "redGrape-2.png",
       "scale" : "3x"
     }
   ],

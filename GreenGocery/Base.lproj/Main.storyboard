@@ -15,18 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furit Grocery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2O-Dv-Mdc">
-                                <rect key="frame" x="20" y="44" width="140" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="yRp-NC-Km2"/>
-                                    <constraint firstAttribute="height" constant="30" id="yna-Lp-8E8"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gP6-Zz-m72">
-                                <rect key="frame" x="0.0" y="104" width="414" height="792"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <tableView key="tableFooterView" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Bat-81-JxG">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="792"/>
@@ -42,11 +32,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="gP6-Zz-m72" firstAttribute="leading" secondItem="aV5-JK-aDG" secondAttribute="leading" id="2xp-00-svz"/>
-                            <constraint firstItem="gP6-Zz-m72" firstAttribute="top" secondItem="x2O-Dv-Mdc" secondAttribute="bottom" constant="30" id="5IL-lc-T3T"/>
                             <constraint firstItem="gP6-Zz-m72" firstAttribute="trailing" secondItem="aV5-JK-aDG" secondAttribute="trailing" id="7FI-Cv-cJE"/>
-                            <constraint firstItem="x2O-Dv-Mdc" firstAttribute="leading" secondItem="aV5-JK-aDG" secondAttribute="leading" constant="20" id="YMx-xD-sgh"/>
-                            <constraint firstItem="x2O-Dv-Mdc" firstAttribute="top" secondItem="aV5-JK-aDG" secondAttribute="top" id="Ztn-3C-ZZ2"/>
                             <constraint firstAttribute="bottom" secondItem="gP6-Zz-m72" secondAttribute="bottom" id="ju0-BE-w9G"/>
+                            <constraint firstItem="gP6-Zz-m72" firstAttribute="top" secondItem="aV5-JK-aDG" secondAttribute="top" id="nop-tu-fWg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aV5-JK-aDG"/>
                     </view>

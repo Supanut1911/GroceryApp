@@ -15,11 +15,11 @@ protocol HomeView: class{
 
 class HomeVC: UIViewController {
     
-    lazy var addBagControl: AddBagControlView = {
-        let control = AddBagControlView.loadFromNib()
-        control.config()
-        return control
-    }()
+    //lazy var addBagControl: AddBagControlView = {
+      //  let control = AddBagControlView.loadFromNib()
+    //    control.config()
+  //      return control
+//}()
     
     @IBOutlet weak var containerStackView: UIStackView!
     @IBOutlet weak var tableView: UITableView!
@@ -81,7 +81,7 @@ extension HomeVC: UITableViewDataSource {
 
 extension HomeVC: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100.0
+        return 150
     }
 }
 
